@@ -1,5 +1,5 @@
 FROM node:17-alpine As builder
-WORKDIR /app
+WORKDIR /calculator
 COPY package.json .
 COPY yarn.lock .
 RUN yarn install
